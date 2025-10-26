@@ -38,14 +38,6 @@ const PrivacyPolicy = () => {
             <p>
               We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as described in this policy.
             </p>
-            <p className="mt-4">
-              We may share your information in the following circumstances:
-            </p>
-            <ul className="list-disc pl-6 mt-4">
-              <li>With your explicit consent</li>
-              <li>To comply with legal requirements</li>
-              <li>To protect our rights and safety</li>
-            </ul>
 
             <div className="bg-blue-50 border-l-4 border-blue-400 p-4 mt-6">
               <p className="font-semibold text-blue-800">
