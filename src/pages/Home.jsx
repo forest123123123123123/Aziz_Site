@@ -44,13 +44,6 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">Contact Us</h2>
-            <p className="text-gray-700 text-sm mb-6 text-center max-w-3xl mx-auto">
-              By opting into SMS from a web form or other medium, you are agreeing to receive SMS messages from Drolly Inc. This includes SMS messages for conversations (external). Message frequency varies. Message and data rates may apply. See{' '}
-              <Link to="/privacy-policy" className="text-blue-600 underline">
-                privacy policy
-              </Link>{' '}
-              for more details. Message HELP for help. Reply STOP to any message to opt out.
-            </p>
             <ContactForm />
           </div>
         </div>

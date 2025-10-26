@@ -111,12 +111,21 @@ const ContactForm = () => {
             {...register('smsConsent')}
             className="mt-1 h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
           />
-          <label htmlFor="smsConsent" className="ml-2 text-sm text-gray-700">
-            I agree to receive SMS messages from Drolly Inc.{' '}
-            <Link to="/privacy-policy" className="text-blue-600 hover:text-blue-800 underline">
-              Privacy Policy
-            </Link>
-          </label>
+          <div className="ml-2">
+            <label htmlFor="smsConsent" className="text-sm text-gray-700">
+              I agree to receive SMS messages from Drolly Inc.{' '}
+              <Link to="/privacy-policy" className="text-blue-600 hover:text-blue-800 underline">
+                Privacy Policy
+              </Link>
+            </label>
+            <p className="text-xs text-gray-500 mt-2 ml-0">
+              By opting into SMS from a web form or other medium, you are agreeing to receive SMS messages from Drolly Inc. This includes SMS messages for conversations (external). Message frequency varies. Message and data rates may apply. See{' '}
+              <Link to="/privacy-policy" className="text-blue-600 underline">
+                privacy policy
+              </Link>{' '}
+              for more details. Message HELP for help. Reply STOP to any message to opt out.
+            </p>
+          </div>
         </div>
 
         <button
